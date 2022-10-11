@@ -13,6 +13,17 @@ public class Ujsag implements Kolcsonozheto{
         this.kiadasHet = kiadasHet;
     }
 
+    public String getCim() {
+        return cim;
+    }
+
+    public int getKiadasEv() {
+        return kiadasEv;
+    }
+
+    public int getKiadasHet() {
+        return kiadasHet;
+    }
 
     @Override
     public String megjelenitendoNev() {

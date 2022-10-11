@@ -12,7 +12,17 @@ public class Konyv implements Kolcsonozheto {
         this.isbn = isbn;
     }
 
+    public String getCim() {
+        return cim;
+    }
 
+    public String getSzerzo() {
+        return szerzo;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
 
     @Override
     public String megjelenitendoNev() {

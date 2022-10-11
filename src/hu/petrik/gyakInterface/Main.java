@@ -1,6 +1,8 @@
 package hu.petrik.gyakInterface;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -56,7 +58,11 @@ public class Main {
 
         System.out.println("\n\n");
 
-        
+        Collections.sort(dvdk);
+
+        for (Dvd d: dvdk){
+            System.out.println(d.megjelenitendoNev()+ " "+ d.getHossz());
+        }
 
     }
 }
